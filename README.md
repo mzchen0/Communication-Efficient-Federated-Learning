@@ -14,6 +14,6 @@ CIFAR is used for image identification. Before running the code CIFAR.m, one mus
 
 to classify the CIFAR dataset. Then, one can directly run the code CIFAR.m. 
 
-For finger movement detection, we have include the data that has been processed by window method. Therefore, one can directly run the code FMD.m.
+For finger movement detection, we have included the data that has been processed by the window method. Therefore, one can directly run the code FMD.m.
 
-In coding setting, stSettings.type determine the coding method. For example, stSettings.type=2 implies that Dithered 2-D lattice quantization method is used for coding while stSettings.type=3 implies that Dithered scalar quantization is used for coding. s_fRate determines the number of bits used to represent one element in the local FL model vector.
+In coding setting, stSettings.type determines the coding method. For example, stSettings.type=2 implies that Dithered 2-D lattice quantization method is used for coding while stSettings.type=3 implies that Dithered scalar quantization is used for coding. s_fRate determines the number of bits used to represent one element in the local FL model vector.
