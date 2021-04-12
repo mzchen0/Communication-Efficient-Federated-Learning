@@ -7,9 +7,9 @@ To run MINST, one must first download the MINST dataset. Then, one can run the c
 
 CIFAR is used for image identification. Before running the code CIFAR.m, one must first run the code DownloadCIFAR10.m to downlowd the dataset of CIFAR. After that, one must run the code 
 
-% if ~exist('cifar10Train','dir')
-%     disp('Saving the Images in folders. This might take some time...');    
-%     saveCIFAR10AsFolderOfImages('cifar-10-batches-mat', pwd, true);
+% if ~exist('cifar10Train','dir')\\
+%     disp('Saving the Images in folders. This might take some time...');   \\ 
+%     saveCIFAR10AsFolderOfImages('cifar-10-batches-mat', pwd, true);\\
 % end
 
 to classify the CIFAR dataset. Then, one can directly run the code CIFAR.m. 
